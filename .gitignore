@@ -20,3 +20,8 @@ outputs/*
 # Uploaded files
 uploads/*
 !uploads/.gitkeep
+
+datasets/
+*.onnx
+*.engine
+*.pt
