@@ -1,0 +1,22 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+runs/
+*.log
+.DS_Store
+Thumbs.db
+# Model weights
+models/*.pt
+!models/.gitkeep
+
+# Generated outputs
+outputs/*
+!outputs/.gitkeep
+
+# Uploaded files
+uploads/*
+!uploads/.gitkeep
